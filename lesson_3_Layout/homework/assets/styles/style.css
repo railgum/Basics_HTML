@@ -152,3 +152,22 @@ a {
   margin-top: 162px;
   padding-top: 97px;
 }
+
+.features {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.features__items {
+  padding-top: 40px;
+  padding-left: 30px;
+}
+
+.feature__item_image {
+}
+
+.feature__item_title {
+}
+.features__item_text {
+  width: 310px;
+}
