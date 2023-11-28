@@ -134,7 +134,6 @@ a {
   background: none;
   color: inherit;
   border: none;
-  /* padding: 0; */
   font: inherit;
   cursor: pointer;
   outline: inherit;
@@ -231,11 +230,12 @@ a {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
+  padding-bottom: 100px;
 }
 .features__items {
   padding-top: 40px;
   padding-left: 30px;
-  padding-bottom: 100px;
+  padding-bottom: 25px;
 }
 .features__items:hover {
   box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
@@ -272,4 +272,103 @@ a {
   border: none;
   cursor: pointer;
   outline: inherit;
+}
+
+/* Services */
+
+.services {
+  margin-top: 92px;
+  display: grid;
+  column-gap: 30px;
+  padding-bottom: 100px;
+  background-color: #fafafa;
+}
+.services__title {
+  grid-column: 1/4;
+  text-align: center;
+  justify-self: center;
+  padding-bottom: 55px;
+}
+.si_1 {
+  grid-column: 1/2;
+}
+.si_2 {
+  grid-column: 2/3;
+}
+.si_3 {
+  grid-column: 3/4;
+}
+
+.services__title_header {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.services__title_text {
+  margin-top: 19px;
+  width: 682px;
+  color: #666;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.services__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services__item:hover {
+  box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
+}
+.services__item_title {
+  color: #000;
+  font-family: Gilroy-Bold;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.services__item_text {
+  margin-top: 22px;
+  color: #aaa;
+  text-align: center;
+  font-family: Gilroy-Regular;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  width: 310px;
+}
+.services__item_button-wrapper {
+  margin-top: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.services__button {
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  color: #fff;
+  text-align: center;
+  font-family: Gilroy-Bold;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.services__button_img {
+  /* width: 7px;
+  height: 10px; */
+  color: #ffffff;
+  padding-left: 6px;
 }
