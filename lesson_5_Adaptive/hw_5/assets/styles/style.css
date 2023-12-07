@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+.header {
+  background-color: #222;
+  height: 75px;
+}
+.header_content {
+  display: flex;
+  justify-content: space-between;
+}
+._container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.logo {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 18px;
+}
+.search {
+  margin-left: 41px;
+}
+.menu {
+  margin-top: 26px;
+}
+.brand__name {
+  display: flex;
+  justify-content: center;
+  background-color: #f1e4e6;
+}
+.brand__name_image {
+}
+.brand__name_text {
+  display: flex;
+  align-items: center;
+}
+.brand_title {
+  width: 377px;
+  color: #222;
+  font-family: Lato;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.brand_title_h2 {
+  color: #222;
+  font-family: Lato;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.brand_title_h2_red {
+  color: #f16d7f;
+}
+.product {
+}
+.product__item {
+}
+.product__item_title {
+}
+.title_red {
+}
+.fetured {
+}
+.fetured__title {
+}
+.title {
+}
+.fetured__subtitle {
+}
+.subtitle {
+}
+.fetured__item {
+}
+.fetured__item-box {
+}
+.fetured__item-imageNorm {
+}
+.fetured__item-img {
+}
+.fetured__item-text {
+}
+.fetured__item-title {
+}
+.fetured__item-subtitle {
+}
+.fetured__item-price {
+}
+.fetured__2 {
+}
+.fetured__btn {
+}
