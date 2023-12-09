@@ -7,6 +7,8 @@
 .wrapper {
   min-height: 100%;
   overflow: hidden;
+  font-family: Lato;
+  font-style: normal;
 }
 .header {
   background-color: #222;
@@ -37,25 +39,28 @@
   background-color: #f1e4e6;
 }
 .brand__name_image {
+  min-width: 50%;
 }
 .brand__name_text {
   display: flex;
+  min-width: 50%;
   align-items: center;
+}
+.brand__name_text img {
+  padding-left: 63px;
 }
 .brand_title {
   width: 377px;
+  padding-left: 16px;
+  padding-top: 10px;
   color: #222;
-  font-family: Lato;
   font-size: 48px;
-  font-style: normal;
   font-weight: 900;
-  line-height: normal;
+  line-height: 0.8;
 }
 .brand_title_h2 {
   color: #222;
-  font-family: Lato;
   font-size: 32px;
-  font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
@@ -63,40 +68,108 @@
   color: #f16d7f;
 }
 .product {
+  margin-top: 65px;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 .product__item {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .product__item_title {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
 }
 .title_red {
+  color: #f16d7f;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: normal;
 }
 .fetured {
+  margin-top: 96px;
+  text-align: center;
 }
 .fetured__title {
+  color: #222;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: normal;
 }
 .title {
 }
 .fetured__subtitle {
+  color: #9f9f9f;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
 }
 .subtitle {
 }
 .fetured__item {
+  display: grid;
+  background: #f8f8f8;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-items: center;
+  margin-top: 48px;
 }
 .fetured__item-box {
-}
-.fetured__item-imageNorm {
+  max-width: 360px;
+  justify-items: center;
 }
 .fetured__item-img {
 }
 .fetured__item-text {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+  margin: 24px 16px;
 }
 .fetured__item-title {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
 }
 .fetured__item-subtitle {
+  margin: 16px 0;
+  color: #5d5d5d;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: normal;
 }
 .fetured__item-price {
+  color: #f16d7f;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: normal;
 }
-.fetured__2 {
+.fetured__wrapper {
+  width: 212px;
+  height: 48px;
+  border: 1px solid #ff6a6a;
+  margin: 48px auto 60px;
 }
 .fetured__btn {
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+  padding-top: 15px;
+  color: #f26376;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
 }
