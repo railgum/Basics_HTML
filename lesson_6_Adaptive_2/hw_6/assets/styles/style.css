@@ -36,6 +36,8 @@
 .menu__list {
   display: flex;
   margin-top: 27px;
+  list-style: none;
+  gap: 25px;
 }
 .menu__item {
   margin-left: 33px;
