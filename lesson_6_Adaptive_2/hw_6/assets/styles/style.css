@@ -120,15 +120,11 @@
   font-weight: 400;
   line-height: normal;
 }
-.title {
-}
 .fetured__subtitle {
   color: #9f9f9f;
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
-}
-.subtitle {
 }
 .fetured__item {
   display: grid;

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.reg-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.reg-form__input {
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.checkbox__text {
+  position: relative;
+}
+.checkbox__text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50px;
+  width: 50px;
+  height: 26px;
+  border-radius: 15px;
+  background-color: azure;
+}
