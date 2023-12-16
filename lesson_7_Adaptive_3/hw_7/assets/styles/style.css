@@ -343,7 +343,9 @@
     min-height: 111px;
   }
   .product__item_last img {
-    width: auto;
+    width: 100%;
+    height: 111px;
+    object-fit: cover;
   }
   .fetured {
     margin-top: 64px;
