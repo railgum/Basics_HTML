@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  background: url(../images/main_photo.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  font-family: "Roboto", serif;
+}
+.header {
+  display: flex;
+  margin-top: 17px;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.header__menu {
+}
+.header__menu_hamburger {
+}
+.header__menu_title {
+}
+.header__logo {
+}
+.header__logo_img {
+}
+.header__logo_title {
+}
+.header__address {
+}
+.header__address_img {
+}
+.header__address_title {
+}
+.header__phone {
+}
+.header__phone_number {
+}
+.header__button {
+}
+.header__button_text {
+}
+.headeer__text {
+}
+.header__text_title {
+}
+.main {
+}
+.main__text {
+}
+.main__text_title {
+}
+.main__text_subtitle {
+}
+.main__button {
+}
+.main__text_img {
+}
+.main__slider {
+}
+.main__slider_button {
+}
+.slider-title {
+}
+.slider-img {
+}
+.main__slider_bread-crumbs {
+}
+.bread-crumbs-img {
+}
+.footer {
+}
+.footer__item {
+}
+.footer__item_img {
+}
+.footer__item_title {
+}
