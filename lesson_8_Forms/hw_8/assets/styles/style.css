@@ -53,10 +53,6 @@
   list-style: none;
   gap: 25px;
 }
-.menu__item {
-  /* margin-left: 33px; */
-}
-
 .brand__name {
   position: relative;
 }
