@@ -8,141 +8,152 @@
   </head>
   <body>
     <div class="wrapper">
-      <header class="header">
-        <div class="header__menu">
-          <img
-            src="assets/images/menu_hamburger.svg"
-            alt="image"
-            class="header__menu_hamburger"
-          />
-          <p class="header__menu_title">Меню</p>
+      <!-- <header class="header">
+        <div class="header-wrap container">
+          <div class="header__menu">
+            <img
+              src="assets/images/menu_hamburger.svg"
+              alt="image"
+              class="header__menu_hamburger"
+            />
+            <p class="header__menu_title">Меню</p>
+          </div>
+          <div class="header__logo">
+            <img
+              src="assets/images/🦆 logo _house_.svg"
+              alt=""
+              class="header__logo_img"
+            />
+            <p class="header__logo_title">Ремонт<br />№1 в Уфе</p>
+          </div>
+          <div class="header__address">
+            <img
+              src="assets/images/map_icon.png"
+              alt="image"
+              class="header__address_img"
+            />
+            <p class="header__address_title">
+              Уфа<br />
+              ул.Верхнеторговая площадь, 6
+            </p>
+          </div>
+          <div class="header__phone">
+            <p class="header__phone_number">8 800 123 45 67</p>
+          </div>
+          <div class="header__button">
+            <p class="header__button_text">Закажите звонок</p>
+          </div>
+          <div class="header__text">
+            <p class="header__text_title">Перезвоним<br />через 24 секунды</p>
+          </div>
         </div>
-        <div class="header__logo">
-          <img
-            src="assets/images/🦆 logo _house_.svg"
-            alt=""
-            class="header__logo_img"
-          />
-          <p class="header__logo_title">Ремонт №1 в Уфе/p></p>
-        </div>
+      </header> -->
 
-        <div class="header__address">
+      <section class="ruling">
+        <div class="ruling__bread-crumbs">
+          <div class="ruling__bread_crumbs-ellipse">
+            <input type="radio" name="slide" id="point1" checked />
+            <label for="point1"></label>
+          </div>
+          <div class="ruling__bread_crumbs-ellipse">
+            <input type="radio" name="slide" id="point2" />
+            <label for="point1"></label>
+          </div>
+          <div class="ruling__bread_crumbs-ellipse">
+            <input type="radio" name="slide" id="point3" />
+            <label for="point1"></label>
+          </div>
+          <div class="ruling__bread_crumbs-ellipse">
+            <input type="radio" name="slide" id="point4" />
+            <label for="point1"></label>
+          </div>
+          <div class="ruling__bread_crumbs-ellipse">
+            <input type="radio" name="slide" id="point5" />
+            <label for="point1"></label>
+          </div>
+          <div class="ruling__bread_crumbs-ellipse">
+            <input type="radio" name="slide" id="point6" />
+            <label for="point1"></label>
+          </div>
+        </div>
+        <div class="ruling__button">
           <img
-            src="assets/images/map_icon.svg"
+            src="assets/images/slider_icon.svg"
             alt="image"
-            class="header__address_img"
+            class="ruling__button_img"
           />
-          <p class="header__address_title">Уфа ул.Верхнеторговая площадь, 6</p>
+          <p class="ruling__button_title">Листайте ниже</p>
         </div>
-        <div class="header__phone">
-          <p class="header__phone_number">8 800 123 45 67</p>
-        </div>
-        <div class="header__button">
-          <p class="header__button_text">Закажите звонок</p>
-        </div>
-        <div class="headeer__text">
-          <p class="header__text_title">Перезвоним через 24 секунды</p>
-        </div>
-      </header>
+      </section>
+
       <main class="main">
-        <div class="main__text">
-          <p class="main__text_title">Ремонт квартир в Уфе</p>
-          <p class="main__text_subtitle">
-            От 5000 руб/месяц сроком от 10 дней с гарантией 1 год
-          </p>
-        </div>
-        <div class="main__button">Смотреть работы</div>
-        <div class="main__text">
-          <img
-            src="assets/images/main_border_icon.svg"
-            alt="image"
-            class="main__text_img"
-          />
-          <p class="main__text_title">Лидер рынка</p>
-          <img
-            src="assets/images/main_icon.svg"
-            alt="image"
-            class="main__text_img"
-          />
-          <p class="main__text_subtitle">2022</p>
-        </div>
-        <div class="main__slider">
-          <div class="main__slider_button">
-            <p class="slider-title">Листайте ниже</p>
-            <img
-              src="assets/images/slider_icon.svg"
-              alt="image"
-              class="slider-img"
-            />
+        <section class="slides">
+          <div class="slide slide1">
+            <div class="main-slider__text container">
+              <p class="main-slider__text_title">Ремонт квартир в Уфе</p>
+              <p class="main-slider__text_subtitle">
+                От 5000 руб/месяц сроком от 10 дней с гарантией 1 год
+              </p>
+            </div>
+            <div class="main-slider__button container">
+              <button>Смотреть работы</button>
+              <div class="main-slider__button-img">
+                <!-- <img src="assets/images/main_border_icon.svg" alt="image" /> -->
+                <p class="main-slider__button_title">Лидер рынка</p>
+                <img src="assets/images/main_icon.svg" alt="image" />
+                <p class="main-slider__button_subtitle">2022</p>
+              </div>
+            </div>
+            <div class="main-slider__footer">
+              <div class="main-slider__footer-item">
+                <img
+                  src="assets/images/footer_icon_1.svg"
+                  alt=""
+                  class="main-slider__footer-item_img"
+                />
+                <p class="main-slider__footer-item_title">
+                  Замер помещения для будущего ремонта
+                </p>
+              </div>
+              <div class="main-slider__footer-item">
+                <img
+                  src="assets/images/footer_icon_2.svg"
+                  alt=""
+                  class="main-slider__footer-item_img"
+                />
+                <p class="main-slider__footer-item_title">
+                  Подробная смета работ
+                </p>
+              </div>
+              <div class="main-slider__footer-item">
+                <img
+                  src="assets/images/footer_icon_3.svg"
+                  alt=""
+                  class="main-slider__footer-item_img"
+                />
+                <p class="main-slider__footer-item_title">
+                  Расчет стоимости материалов
+                </p>
+              </div>
+              <div class="main-slider__footer-item">
+                <img
+                  src="assets/images/footer_icon_4.svg"
+                  alt=""
+                  class="main-slider__footer-item_img"
+                />
+                <p class="main-slider__footer-item_title">
+                  Предварительная стоимость ремонта
+                </p>
+              </div>
+            </div>
           </div>
-          <div class="main__slider_bread-crumbs">
-            <img
-              src="assets/images/bread_icon.svg"
-              alt="image"
-              class="bread-crumbs-img"
-            />
-            <img
-              src="assets/images/bread_icon.svg"
-              alt=""
-              class="bread-crumbs-img"
-            />
-            <img
-              src="assets/images/bread_icon.svg"
-              alt=""
-              class="bread-crumbs-img"
-            />
-            <img
-              src="assets/images/bread_icon.svg"
-              alt=""
-              class="bread-crumbs-img"
-            />
-            <img
-              src="assets/images/bread_icon.svg"
-              alt=""
-              class="bread-crumbs-img"
-            />
-            <img
-              src="assets/images/bread_icon.svg"
-              alt=""
-              class="bread-crumbs-img"
-            />
-          </div>
-        </div>
+          <div class="slide slide2"></div>
+          <div class="slide slide3"></div>
+          <div class="slide slide4"></div>
+          <div class="slide slide5"></div>
+          <div class="slide slide6"></div>
+        </section>
       </main>
-      <footer class="footer">
-        <div class="footer__item">
-          <img
-            src="assets/images/footer_icon_1.svg"
-            alt=""
-            class="footer__item_img"
-          />
-          <p class="footer__item_title">Замер помещения для будущего ремонта</p>
-        </div>
-        <div class="footer__item">
-          <img
-            src="assets/images/footer_icon_2.svg"
-            alt=""
-            class="footer__item_img"
-          />
-          <p class="footer__item_title">Подробная смета работ</p>
-        </div>
-        <div class="footer__item">
-          <img
-            src="assets/images/footer_icon_3.svg"
-            alt=""
-            class="footer__item_img"
-          />
-          <p class="footer__item_title">Расчет стоимости материалов</p>
-        </div>
-        <div class="footer__item">
-          <img
-            src="assets/images/footer_icon_4.svg"
-            alt=""
-            class="footer__item_img"
-          />
-          <p class="footer__item_title">Предварительная стоимость ремонта</p>
-        </div>
-      </footer>
     </div>
   </body>
 </html>
