@@ -20,7 +20,7 @@
           </div>
           <div class="header__logo">
             <img
-              src="assets/images/🦆 logo _house_.svg"
+              src="assets/images/logo_house.svg"
               alt=""
               class="header__logo_img"
             />
@@ -50,23 +50,19 @@
       </header>
 
       <main class="main">
-        <input type="radio" name="slide" id="point1" checked />
-        <input type="radio" name="slide" id="point2" />
+        <input type="radio" name="slide" id="point1" />
+        <input type="radio" name="slide" id="point2" checked />
         <input type="radio" name="slide" id="point3" />
         <input type="radio" name="slide" id="point4" />
         <input type="radio" name="slide" id="point5" />
         <input type="radio" name="slide" id="point6" />
-        <!-- <input type="radio" name="slide" id="point7" class="button_click" /> -->
+        <input type="radio" name="slide" />
 
         <div class="ruling__button">
-          <img
-            src="assets/images/slider_icon.svg"
-            alt="image"
-            class="ruling__button_img"
-          />
+          <button class="ruling__button_img"></button>
           <p class="ruling__button_title">Листайте ниже</p>
         </div>
-        <section class="slides">
+        <div class="slides">
           <div class="slide slide1">
             <div class="slide1__text">
               <p class="slide1__text_title">Ремонт квартир в Уфе</p>
@@ -125,7 +121,60 @@
             </div>
           </div>
           <label for="point2"></label>
-          <div class="slide slide2"></div>
+          <div class="slide slide2">
+            <div class="slide2__text container">
+              <p class="slide2__text_title">
+                С 2012 года успешно сдано более 300 проектов
+              </p>
+              <p class="slide2__text_subtitle">Пример готового объекта</p>
+            </div>
+            <div class="slide2__gallery container">
+              <div class="slide2__gallery_img"></div>
+              <div class="slide2__gallery_text">
+                <p class="slide2__gallery_after-title">Было:</p>
+                <p class="slide2__gallery_after-subtitle">
+                  Квартира со стандартной планировкой и черновой отделкой
+                </p>
+                <div class="slide2__gallery_task">
+                  <div class="slide2__gallery_task-title">Задача:</div>
+                  <ul class="slide2__gallery_task-subtitle">
+                    <li>
+                      Дистанционно разработать дизайн-проект с последующей
+                      реализацией
+                    </li>
+                    <li>
+                      Подобрать все необходимые материалы и предметы интерьера
+                    </li>
+                    <li>
+                      Заказчик сразу пожелал сделать новые перегородки из
+                      газобетона
+                    </li>
+                  </ul>
+                </div>
+                <p class="slide2__gallery_result-title">Результат:</p>
+                <p class="slide2__gallery_result-subtitle">
+                  Произвели полный демонтаж стен и поставили перегородки. За
+                  счет<br />перепланировки квартиры освободили много полезного
+                  пространства. Квартира<br />получилась светлая и уютная.
+                  Поменяли всю электрику под дизайн-проект.
+                </p>
+              </div>
+              <div class="slide__gallery_table">
+                <table>
+                  <tr>
+                    <td>Объект: 3-х комнатная квартира</td>
+                    <td>Жилой комплекс: Гранд Фамилия</td>
+                    <td>Срок выполнения: 6 месяцев</td>
+                  </tr>
+                  <tr>
+                    <td>Площадь: 81 м2</td>
+                    <td>Вид ремонта : Премиум</td>
+                    <td>Стоимость: 1 600 000 рублей</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
           <label for="point3"></label>
           <div class="slide slide3"></div>
           <label for="point4"></label>
@@ -135,15 +184,15 @@
           <label for="point6"></label>
           <div class="slide slide6"></div>
           <label for="point1"></label>
-        </section>
-        <section class="control">
+        </div>
+        <div class="control">
           <label for="point1"></label>
           <label for="point2"></label>
           <label for="point3"></label>
           <label for="point4"></label>
           <label for="point5"></label>
           <label for="point6"></label>
-        </section>
+        </div>
       </main>
     </div>
   </body>

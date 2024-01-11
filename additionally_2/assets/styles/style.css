@@ -88,9 +88,9 @@
   position: absolute;
   top: 616px;
   left: 1372px;
-  height: 196px;
+  z-index: 5;
   width: 66px;
-  z-index: 10;
+  height: 196px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -103,8 +103,14 @@
   font-size: 14px;
 }
 .ruling__button_img {
+  background: none;
+  border: none;
+  width: 48px;
+  height: 48px;
   /* margin-bottom: 7px; */
+  background: url(../images/slider_icon.svg);
   padding: 7px;
+  cursor: pointer;
 }
 .ruling__bread-crumbs {
   display: flex;
@@ -144,6 +150,8 @@
 .slide1 {
   background: url(../images/main_photo.jpg) no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
 }
 .slide1__text {
   display: flex;
@@ -242,6 +250,51 @@
 .slide2 {
   background: #181818;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding-left: 153px;
+}
+.slide2__text {
+}
+.slide2__text_title {
+  color: #fcdb05;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 193px;
+}
+.slide2__text_subtitle {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 19px;
+}
+.slide2__gallery {
+  display: flex;
+  justify-content: space-between;
+}
+.slide2__gallery_img {
+}
+.slide2__gallery_text {
+  color: #fff;
+  font-style: normal;
+  font-weight: 400;
+}
+.slide2__gallery_after-title {
+}
+.slide2__gallery_after-subtitle {
+}
+.slide2__gallery_task {
+}
+.slide2__gallery_task-title {
+}
+.slide2__gallery_task-subtitle {
+}
+.slide2__gallery_result-title {
+}
+.slide2__gallery_result-subtitle {
+}
+.slide__gallery_table {
 }
 .slide3 {
   background: url(../images/slide3.jpg) no-repeat;
@@ -259,6 +312,18 @@
   background: url(../images/slide6.jpg) no-repeat;
   background-size: cover;
 }
+.slides label {
+  display: none;
+}
+/* .main > input:checked ~ .slides > .slide + label {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 100px;
+  bottom: 0;
+  z-index: 5;
+} */
 
 .control {
   width: 30px;
@@ -269,7 +334,7 @@
   display: inline-flex;
   flex-direction: column;
   gap: 14px;
-  z-index: 10;
+  z-index: 5;
 }
 .control label {
   width: 6px;
@@ -287,7 +352,4 @@
 #point6:checked ~ .slides > .slide6 {
   opacity: 1;
   z-index: 1;
-}
-.main > input + section > div + label {
-  display: none;
 }
